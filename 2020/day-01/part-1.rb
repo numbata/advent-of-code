@@ -3,7 +3,7 @@
 
 require 'set'
 
-input_fname = ARGV[0] || 'input-01.txt'
+input_fname = ARGV[0] || 'input.txt'
 input = File.open(input_fname, 'r')
 
 accum = Set.new
